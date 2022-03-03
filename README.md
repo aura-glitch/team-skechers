@@ -1,76 +1,34 @@
-# Preview
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# tribes-eth
+## Getting Started
 
-`tribes-eth` is a sample [Next.js](https://nextjs.org/) project utilizing the tribes module from the [hyperverse](https://www.decentology.com/hyperverse). The aim of this project is to allow users to join different tribes (or communities) and gain access to content only visible to those in that specific tribe.
+First, run the development server:
 
--   If you have any questions please join the [Decentology Discord.](http://discord.gg/decentology)
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## 💻 System Requirements
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
--   [Visual Studio Code](https://code.visualstudio.com/download) (or any IDE for editing JavaScript)
--   [Git](https://git-scm.com/)
--   [Node.js](https://nodejs.org/en/) >=14.0.0
--   [Yarn](https://classic.yarnpkg.com/en/docs/install#mac-stable)
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## 🛠 Installation
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-To run this project locally:
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-1. In your terminal run these commands:
-   clone the repository
+## Learn More
 
-    ```bash
-    git clone https://github.com/aura-glitch/team-skechers
-    ```
-    
-2. Navigate to your Preferred module
+To learn more about Next.js, take a look at the following resources:
 
-   **Ethereum Example**
-   ```bash
-   cd team-skechers/apps/ethereum
-   ```
-   
-3. Download all the dependencies needed to run the project by running `yarn`.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-    ```bash
-    yarn
-    ```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-    Select the example project you want to run from the `apps` directory and run the following command
+## Deploy on Vercel
 
-    ```bash
-    yarn dev
-    ```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-    Open [http://localhost:3000](http://localhost:3000/) with your browser to see the result.
-
-## 🏁 Testing & Running the Application
-
-If you were successful following the Installation application, you should be greeted with the tribes home page that looks like this:
-<img src="./apps/ethereum/tribes/public/tribes-home.png" alt="tribes"/>
-
-### Prerequisities
-
-To be able to interact with the dapp, you need a Metmask Wallet and Rinkeby eth.
-
-1. **Metamask**
-
-    If you do not have a metamask wallet, [here](https://www.surgewomen.io/learn-about-web3/set-up-metamask-wallet) is a guide you can follow on how to set up one.
-
-2. **Rinkeby Faucets**
-
-    To get some Rinkeby eth here are some available faucets you can request from:
-
--   https://faucet.paradigm.xyz/
--   https://app.mycrypto.com/faucet
-
-    Or ask us to send you some in our [Discord Server.](http://discord.gg/decentology)
-
-## 📌 Important Links and File Locations
-
-Here are some links and locations of files related to tribes:
-
--   Rinkeby Etherscan of the [contract](https://rinkeby.etherscan.io/address/0x410E22b393B3A90953c0677F2282E331580ed45b)
--   [Contract code](https://github.com/decentology/workshop-yeovil/blob/workshop/yeovil/packages/hyperverse-ethereum-tribes/contracts/Tribes.sol) found in the repo
--   [useTribe](https://github.com/decentology/workshop-yeovil/blob/workshop/yeovil/packages/hyperverse-ethereum-tribes/source/useTribes.ts) hook which is what allows us to interact and transact with the contract
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
